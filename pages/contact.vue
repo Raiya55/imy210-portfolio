@@ -2,7 +2,7 @@
 <div>
     <h1 class="contactH1">Contact Me</h1>
 <div class="contact">
-        <form name="contact" method ="POST" data-netlify="true">
+        <form name="contact" method ="POST"  netlify>
             <input type="hidden" name="form-name" value="contact" />
             <label>
                 Name:
@@ -82,7 +82,7 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    
+
 }
 
 .contact button:hover{
