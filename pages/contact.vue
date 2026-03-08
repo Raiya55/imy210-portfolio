@@ -3,11 +3,13 @@
         <h1>Contact Me</h1>
 
         <form name="contact" method ="POST" data-netlify="true">
-            <input type="hidden" name="form-name" value="contact">
-
             <label>
                 Name:
                 <input type="text" name="name">
+            </label>
+            <label>
+                Surname:
+                <input type="text" name="surname">
             </label>
 
             <label>
